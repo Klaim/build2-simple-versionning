@@ -1,6 +1,6 @@
 : 1
 name: mylib-versionned
-version: 0.1.0
+version: 0.2.0-a.0.z
 summary: mylib-versionned library
 license: TODO
 url: https://github.com/Klaim/build2-simple-versionning
