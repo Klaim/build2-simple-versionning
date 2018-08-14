@@ -1,0 +1,3 @@
+import libs = mylib-versionned%lib{mylib-versionned}
+
+exe{driver}: {hxx ixx txx cxx}{**} $libs

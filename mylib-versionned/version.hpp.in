@@ -1,0 +1,33 @@
+#pragma once
+
+// The numeric version format is AAABBBCCCDDDE where:
+//
+// AAA - major version number
+// BBB - minor version number
+// CCC - bugfix version number
+// DDD - alpha / beta (DDD + 500) version number
+// E   - final (0) / snapshot (1)
+//
+// When DDDE is not 0, 1 is subtracted from AAABBBCCC. For example:
+//
+// Version      AAABBBCCCDDDE
+//
+// 0.1.0        0000010000000
+// 0.1.2        0000010010000
+// 1.2.3        0010020030000
+// 2.2.0-a.1    0020019990010
+// 3.0.0-b.2    0029999995020
+// 2.2.0-a.1.z  0020019990011
+//
+#define MYLIB_VERSIONNED_VERSION       $mylib_versionned.version.project_number$ULL
+#define MYLIB_VERSIONNED_VERSION_STR   "$mylib_versionned.version.project$"
+#define MYLIB_VERSIONNED_VERSION_ID    "$mylib_versionned.version.project_id$"
+
+#define MYLIB_VERSIONNED_VERSION_MAJOR $mylib_versionned.version.major$
+#define MYLIB_VERSIONNED_VERSION_MINOR $mylib_versionned.version.minor$
+#define MYLIB_VERSIONNED_VERSION_PATCH $mylib_versionned.version.patch$
+
+#define MYLIB_VERSIONNED_PRE_RELEASE   $mylib_versionned.version.pre_release$
+
+#define MYLIB_VERSIONNED_SNAPSHOT_SN   $mylib_versionned.version.snapshot_sn$ULL
+#define MYLIB_VERSIONNED_SNAPSHOT_ID   "$mylib_versionned.version.snapshot_id$"

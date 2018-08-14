@@ -1,0 +1,6 @@
+$out_root/
+{
+  include mylib-versionned/
+}
+
+export $out_root/mylib-versionned/lib{mylib-versionned}
