@@ -18,6 +18,12 @@ int main ()
     assert (o.str () == "Hello, World!\n");
   }
 
+  {
+    ostringstream o;
+    say_kikoo (o, "World");
+    assert (o.str () == "Kikoo, World!\n");
+  }
+
   // Empty name.
   //
   try

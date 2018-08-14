@@ -12,4 +12,7 @@ namespace mylib
   //
   MYLIB_VERSIONNED_SYMEXPORT void
   say_hello (std::ostream&, const std::string& name);
+
+  MYLIB_VERSIONNED_SYMEXPORT void
+  say_kikoo (std::ostream&, const std::string& name);
 }
