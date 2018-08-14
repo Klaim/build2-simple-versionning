@@ -20,6 +20,6 @@ namespace mylib
     if (n.empty ())
       throw invalid_argument ("empty name");
 
-    o << "Kikoo, " << n << '!' << endl;
+    o << "Kikoo and lolilol, " << n << '!' << endl;
   }
 }

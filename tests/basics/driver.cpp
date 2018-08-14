@@ -21,7 +21,7 @@ int main ()
   {
     ostringstream o;
     say_kikoo (o, "World");
-    assert (o.str () == "Kikoo, World!\n");
+    assert (o.str () == "Kikoo and lolilol, World!\n");
   }
 
   // Empty name.
