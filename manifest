@@ -1,10 +1,10 @@
 : 1
 name: mylib-versionned
-version: 0.1.0-a.0.z
+version: 0.1.0
 summary: mylib-versionned library
 license: TODO
-url: https://example.org/mylib-versionned
-email: jlamotte@softbankrobotics.com
+url: https://github.com/Klaim/build2-simple-versionning
+email: mjklaim@gmail.com
 depends: * build2 >= 0.8.0-
 depends: * bpkg >= 0.8.0-
 #depends: libhello ^1.0.0
